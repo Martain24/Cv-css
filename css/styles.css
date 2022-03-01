@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-color: #E0F9B5;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: "Italianno", cursive;
+  font-size: 4.5em;
+}
+
+h2 {
+  font-family: 'DM Serif Text', serif;
+}
+
+h3 {
+  font-family: 'DM Serif Text', serif;
+}
+p {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+hr {
+  margin: 0;
+  height: 3px;
+  background-color: #FFCFDF;
+  border: none;
+}
+
+
+/* WARNING: Images */
+
+.mountain_center {
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.top_cloud {
+  width: 4%;
+  position: relative;
+  top: 80px;
+  left: 210px;
+}
+.botton_cloud {
+  width: 5%;
+  position: relative;
+  bottom: 280px;
+  right: 130px;
+}
+
+.avatar {
+  width: 6%;
+}
+
+.coding_image {
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.sports_image {
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+
+/* WARNING: containers */
+
+.top_container {
+  /* WARNING: Necesitamos poner la position en relative para que la position absolute
+  funcione con las cosas que pongamos aquí */
+  position: relative;
+  text-align: center;
+  background-color: #E0F9B5;
+  padding-top: 4%;
+}
+.middel_container {
+  position: relative;
+  background-color: #FEFDCA;
+  text-align: center;
+  padding: 20px;
+}
+
+.botton_container {
+  background-color: #A5DEE5;
+  text-align: center;
+  padding: 20px;
+}
+
+.last_container {
+  background-color: #A5DEE5
+}
+
+.circle_container {
+  background-color: #E0F9B5;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 90px;
+}
